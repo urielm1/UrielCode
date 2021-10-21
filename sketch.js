@@ -32,9 +32,9 @@ function draw() {
 
 function mousePressed(){
   startSignin = homepage;
-  homepage = menupage;
-  menupage = plantpage;
-  plantpage = rosepage;
+  //homepage = menupage;
+  //menupage = plantpage;
+  //plantpage = rosepage;
   //rosepage = menupage;
   //menupage = notespage;
   //notespage = creatnote;
