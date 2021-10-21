@@ -20,6 +20,14 @@ function draw() {
   // put drawing code here
   background(220);
   image(startSignin,300,30);
+  image(homepage,300,30);
+  image(menupage,300,30);
+  image(plantpage,300,30);
+  image(rosepage,300,30);
+  image(notespage,300,30);
+  image(creatnote,300,30);
+  image(newnotespage,300,30);
+  image(waterMethods,300,30);
 }
 
 function mousePressed(){
