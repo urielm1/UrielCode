@@ -1,7 +1,7 @@
 var startSignin;
 function preload(){
   startSignin = loadImage('assets/Signin.png');
-  homepage = loadImage('assets/Homepage.png');
+  homepage = loadImage('assets/Homepage1.png');
   menupage = loadImage('assets/Menupage.png');
   plantpage = loadImage('assets/Plantpage.png');
   rosepage = loadImage('assets/RoseFlowerpage.png');
