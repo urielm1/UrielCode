@@ -19,7 +19,7 @@ function setup() {
 function draw() {
   // put drawing code here
   background(221);
-  image(startSignin,100,30);
+  image(startSignin,0,0);
   //image(homepage,300,30);
   //image(menupage,300,30);
   //image(plantpage,300,30);
