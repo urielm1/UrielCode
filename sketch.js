@@ -8,7 +8,7 @@ function preload(){
   notespage = loadImage('assets/Notespage.png');
   creatnote = loadImage('assets/Creatingnote.png');
   newnotespage = loadImage('assets/Newnotespage.png');
-  waterMethods = loadImage('assets/WaterMethods.png');
+  //waterMethods = loadImage('assets/WaterMethods.png');
 }
 
 function setup() {
