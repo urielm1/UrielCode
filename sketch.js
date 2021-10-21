@@ -19,7 +19,7 @@ function setup() {
 function draw() {
   // put drawing code here
   background(220);
-  image(startSignin,100,30);
+  image(startSignin,200,30);
 }
 
 function mousePressed(){
