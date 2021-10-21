@@ -8,7 +8,7 @@ function preload(){
   notespage = loadImage('assets/Notespage.png');
   creatnote = loadImage('assets/Creatingnote.png');
   newnotespage = loadImage('assets/Newnotespage.png');
-  //waterMethods = loadImage('assets/WaterMethods.png');
+  waterMethods = loadImage('assets/WaterMethods.png');
 }
 
 function setup() {
@@ -32,14 +32,14 @@ function draw() {
 
 function mousePressed(){
   startSignin = homepage;
-  //homepage = menupage;
-  //menupage = plantpage;
-  //plantpage = rosepage;
-  //rosepage = menupage;
-  //menupage = notespage;
-  //notespage = creatnote;
-  //creatnote = newnotespage;
-  //newnotespage = menupage;
-  //menupage = waterMethods;
+  homepage = menupage;
+  menupage = plantpage;
+  plantpage = rosepage;
+  rosepage = menupage;
+  menupage = notespage;
+  notespage = creatnote;
+  creatnote = newnotespage;
+  newnotespage = menupage;
+  menupage = waterMethods;
 
 }
