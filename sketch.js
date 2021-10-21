@@ -1,7 +1,7 @@
 var startSignin;
 function preload(){
   startSignin = loadImage('assets/Signin.png');
-  homepage = loadImage('assets/Homepage1.png');
+  homepage = loadImage('assets/Homepage.png');
   menupage = loadImage('assets/Menupage.png');
   plantpage = loadImage('assets/Plantpage.png');
   rosepage = loadImage('assets/RoseFlowerpage.png');
@@ -13,7 +13,7 @@ function preload(){
 
 function setup() {
   // put setup code here
-  createCanvas(800,1500);
+  createCanvas(900,1200);
 }
 
 function draw() {
