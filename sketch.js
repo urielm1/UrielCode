@@ -1,45 +1,87 @@
-var startSignin;
+var signIn, homePage, menuPage, plantPage, rosePage, notesPage, creatNote, newNotes, waterMethods;
+var start;
 function preload(){
-  startSignin = loadImage('assets/Signin.png');
-  homepage = loadImage('assets/Homepage.png');
-  menupage = loadImage('assets/Menupage.png');
-  plantpage = loadImage('assets/Plantpage.png');
-  rosepage = loadImage('assets/RoseFlowerpage.png');
-  notespage = loadImage('assets/Notespage.png');
-  creatnote = loadImage('assets/Creatingnote.png');
-  newnotespage = loadImage('assets/Newnotespage.png');
+  signIn = loadImage('assets/Signin.png');
+  homePage = loadImage('assets/Homepage.png');
+  menuPage = loadImage('assets/Menupage.png');
+  plantPage = loadImage('assets/Plantpage.png');
+  rosePage = loadImage('assets/RoseFlowerpage.png');
+  notesPage = loadImage('assets/Notespage.png');
+  creatNote = loadImage('assets/Creatingnote.png');
+  newNotes = loadImage('assets/Newnotespage.png');
   waterMethods = loadImage('assets/WaterMethods.png');
 }
 
 function setup() {
   // put setup code here
-  createCanvas(950,1200);
+  createCanvas(350,600);
+  start = 1;
 }
 
 function draw() {
   // put drawing code here
   background(221);
-  image(startSignin,0,0);
-  //image(homepage,300,30);
-  //image(menupage,300,30);
-  //image(plantpage,300,30);
-  //image(rosepage,300,30);
-  //image(notespage,300,30);
-  //image(creatnote,300,30);
-  //image(newnotespage,300,30);
-  //image(waterMethods,300,30);
+
+  if(start == 1){
+  image(signIn,0,0, width, height);
+}else
+
+  if( start == 2){
+    image(homePage,0,0, width, height);
+  }else
+  if( start == 3){
+    image(menuPage,0,0, width, height);
+
+  }else
+  if( start == 4){
+    image(plantPage,0,0, width, height);
+
+  }else
+  if( start == 5){
+    image(rosePage,0,0, width, height);
+
+  }else
+  if( start == 6){
+    image(menuPage,0,0, width, height);
+
+  }else
+  if( start == 7){
+    image(notesPage,0,0, width, height);
+
+  }else
+  if( start == 8){
+    image(creatNote,0,0, width, height);
+
+  }else
+  if( start == 9){
+    image(newNotes,0,0, width, height);
+
+  }else
+  if( start == 10){
+    image(menuPage,0,0, width, height);
+
+  }else
+  if( start == 11){
+    image(waterMethods,0,0, width, height);
+
+  }
 }
 
+
 function mousePressed(){
-  startSignin = homepage;
-  homepage = menupage;
-  menupage = plantpage;
-  plantpage = rosepage;
-  rosepage = menupage;
-  menupage = notespage;
-  notespage = creatnote;
-  creatnote = newnotespage;
-  newnotespage = menupage;
-  menupage = waterMethods;
+
+start++;
+
+
+  //startSignin = homepage;
+  //homepage = menupage;
+//  menupage = plantpage;
+  //plantpage = rosepage;
+//  rosepage = menupage;
+//  menupage = notespage;
+//  notespage = creatnote;
+  //creatnote = newnotespage;
+//  newnotespage = menupage;
+//  menupage = waterMethods;
 
 }
